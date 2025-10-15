@@ -67,8 +67,21 @@ let myUser: User = {
 myUser.email = "jsn@gmail.com";
 // myUser._id = "q3445837987324";
 
-let cardnumber = {
+type cardnumber = {
     cardNumber: string;
 };
+
+type cardDate = {
+    cardDate: string;
+};
+
+type cardDetails = cardnumber & cardDate & {
+    cvv: number
+}
+
+let card :cardDetails = {
+    //it will have values from all cardnumber, cardDate and CVV details
+}
+
 
 export {};

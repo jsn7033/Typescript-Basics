@@ -43,8 +43,7 @@ function consoleError(errmsg: string): void{
 }
 
 function handleError(errmsg: string): never{
-   throw new Error(errmsg);
-   
+   throw new Error(errmsg);   
 }
 
 export {};
