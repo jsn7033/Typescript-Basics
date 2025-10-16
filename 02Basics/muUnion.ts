@@ -65,6 +65,13 @@ getDbId("3d4085vbfd0934dfg")
 //array
 
 //it allows acceptance of both string or integer values
-const data : number[] | string[] = [1,2,3, "jsn"]
+const data : (number | string)[] = [1,2,3, "jsn"]
+
+// actual usecase
+/* it’s a way of restricting the variable to only a few allowed string options — like an “enum,” but lighter and simpler. */
+let seatAllotment: "aisle" | "middle" | "window"
+seatAllotment = "aisle"
+seatAllotment = "crew"  // not allowed
+//
 
 export {}

@@ -1,4 +1,4 @@
-let user = {
+let my_user = {
     name: "Jaswinder",
     age: 10
 }

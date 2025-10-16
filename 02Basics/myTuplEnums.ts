@@ -1,5 +1,3 @@
-/*  */
-
 
 const user: string[] = ["hc"]
 
@@ -15,4 +13,4 @@ const newUser: User = [234, "example@gmail.com"]
 
 //down side
 //it allows all methods from array and now this bug is closed by Microsoft
-newUser.push(true)
+// newUser.push(true)
